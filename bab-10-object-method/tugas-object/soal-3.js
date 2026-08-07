@@ -5,4 +5,5 @@ const mobil = {
 
 mobil.warna = "Hitam";
 mobil.tahun = 2025;
+
 console.log(mobil);
