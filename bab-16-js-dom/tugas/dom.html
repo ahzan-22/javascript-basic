@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Santri</title>
+
+    <link rel="stylesheet" href="dom.css" />
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+        <p class="judul-kecil">🕌 SISTEM INFORMASI SANTRI</p>
+
+        <h1>Dashboard Santri</h1>
+
+        <p class="selamat-datang">
+          Selamat datang di dashboard kegiatan santri 👋
+        </p>
+      </header>
+
+      <section class="data-santri">
+        <h2>👤 Data Santri</h2>
+
+        <div class="data-list">
+          <p>
+            <span>Nama</span>
+            <strong id="nama-santri"></strong>
+          </p>
+
+          <p>
+            <span>Kelas</span>
+            <strong id="kelas-santri"></strong>
+          </p>
+
+          <p>
+            <span>Status</span>
+            <strong id="status-santri" class="status-aktif"></strong>
+          </p>
+        </div>
+      </section>
+
+      <section class="aktivitas">
+        <div class="aktivitas-header">
+          <div>
+            <h2>📋 Aktivitas Santri</h2>
+            <p id="jumlah-aktivitas"></p>
+          </div>
+        </div>
+
+        <ul id="daftar-aktivitas"></ul>
+      </section>
+
+      <footer>
+        <p>Dashboard Santri • Belajar JavaScript DOM</p>
+      </footer>
+
+    </div>
+
+    <script src="dashboard-santri.js"></script>
+  </body>
+</html>
